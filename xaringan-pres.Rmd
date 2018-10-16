@@ -166,7 +166,7 @@ class: center, middle
 
 # Opportunities 
 
-- Availability of existing curricula
+- Some existing curricula (may need to be adapted)
 - Lots of attention in industry and at post-secondary level
 - Rare area of overlap between math and science standards
 - Goal-directed use of engineering and computer science ideas
@@ -184,6 +184,29 @@ class: center, middle
 - Hollylynne Lee
 - Lynn Hodge and Joy Bartlett
 - Dan Anderson
+
+---
+
+# Some projects I'm working on
+
+.pull-left[
+
+## Data science ed
+
+- Data-Edu book
+- Design research with area teacher
+- After school class/club on data science
+
+]
+
+.pull-right[
+
+## Data science in ed
+
+- **R** package development 
+- NGSSchat analysis
+- (Quantitative) science simulation
+- Use of multi-level models
 
 ---
 
