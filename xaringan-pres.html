@@ -1,16 +1,25 @@
----
-title: "Data Science Education Dilemmas (and Opportunities)"
-subtitle: ""
-author: "Joshua Rosenberg"
-date: "2018-10-16"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Science Education Dilemmas (and Opportunities)</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Joshua Rosenberg" />
+    <meta name="date" content="2018-10-16" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Data Science Education Dilemmas (and Opportunities)
+### Joshua Rosenberg
+### 2018-10-16
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 # How I came to STEM Education
 
@@ -53,7 +62,7 @@ background-size: 70%
 
 # Focus on data science education
 
-- *[Subject matter] education* implies a focus on teaching & learning
+- *[Subject matter] education* implies a focus on teaching &amp; learning
 - Especially important if aim is to work at the K-12 level
     - Uncommon
     - Can be empowering to learners
@@ -77,22 +86,22 @@ background-size: 60%
 background-image: url(images/data-science-hadley.png) 
 background-size: 60%
 
-(Wickham & Grolemund, 2018)
+(Wickham &amp; Grolemund, 2018)
 
 ---
 
 background-image: url(images/data-science-peng.png) 
 background-size: 45%
 
-(Peng & Matsui, 2018)
+(Peng &amp; Matsui, 2018)
 
 ---
 
 # The provenance of data science education
 
 - Education
-    - *Data modeling* (Lehrer & Romberg, 1996)
-    - *Studies of statistical reasoning* (Wild & Pfannkuch)
+    - *Data modeling* (Lehrer &amp; Romberg, 1996)
+    - *Studies of statistical reasoning* (Wild &amp; Pfannkuch)
 
 - *Statistics*
     - Breiman (2001)
@@ -196,5 +205,49 @@ Slides created via the R package [**xaringan**](https://github.com/yihui/xaringa
 ]
 
 .pull-right[
-<img src = "images/jmr-utk-headshot.jpg">
+&lt;img src = "images/jmr-utk-headshot.jpg"&gt;
 ]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
